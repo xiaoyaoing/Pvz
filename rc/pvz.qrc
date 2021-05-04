@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/background">
+        <file>background1.jpg</file>
+    </qresource>
+    <qresource prefix="/plants">
+        <file>Peashooter.gif</file>
+        <file>SunFlower.gif</file>
+        <file>IcePeaShooter.gif</file>
+        <file>Repeater.gif</file>
+        <file>Wallnut_1.gif</file>
+        <file>Wallnut_2.gif</file>
+        <file>WallNut.gif</file>
+        <file>tallWallNut.gif</file>
+        <file>tallWallNut1.gif</file>
+        <file>CherryBomb.gif</file>
+        <file>garlic1.gif</file>
+        <file>garlic2.gif</file>
+        <file>garlic3.gif</file>
+        <file>squash1.gif</file>
+        <file>squash2.gif</file>
+    </qresource>
+    <qresource prefix="/interfaces">
+        <file>start.jpg</file>
+        <file>mainlogo.png</file>
+        <file>SunBack.png</file>
+    </qresource>
+    <qresource prefix="/Zombies">
+        <file>Zombie_1.gif</file>
+        <file>Zombie_2.gif</file>
+        <file>Zombie.gif</file>
+        <file>ZombieAttack.gif</file>
+        <file>ZombieBucket.gif</file>
+        <file>ZombieBucketAttack.gif</file>
+        <file>ZombieCone.gif</file>
+        <file>ZombieConeAttack.gif</file>
+        <file>ZombieDie.gif</file>
+        <file>ZombieFlag.gif</file>
+        <file>ZombieFlagAttack.gif</file>
+        <file>ZombieHead.gif</file>
+        <file>ZombieShield.gif</file>
+        <file>ZombieShieldAttack.gif</file>
+        <file>zombieBoomDie.gif</file>
+    </qresource>
+    <qresource prefix="/flys">
+        <file>Pea.gif</file>
+        <file>PeaHit.gif</file>
+        <file>Sun.gif</file>
+        <file>PeaIce.gif</file>
+    </qresource>
+    <qresource prefix="/cards">
+        <file>card_CherryBomb.png</file>
+        <file>card_FireTree.png</file>
+        <file>card_IcePeaShooter.png</file>
+        <file>card_PeaShooter.png</file>
+        <file>card_PotatoMine.png</file>
+        <file>card_Repeater.png</file>
+        <file>card_Sunflower.png</file>
+        <file>card_WallNut.png</file>
+        <file>tallWallNutCard.png</file>
+        <file>tallWallNutCard1.png</file>
+        <file>card_squash.png</file>
+    </qresource>
+</RCC>
