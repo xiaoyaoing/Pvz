@@ -8,3 +8,7 @@ yObject::yObject(QWidget * parent) : QLabel(parent)
 //    this->setMovie(mov);
 }
 
+ QPoint  yObject :: getRealPos(){
+    return QPoint(x()+xoffset,y()+yoffset);
+}
+

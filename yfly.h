@@ -8,6 +8,9 @@
 #include<yobject.h>
 #include<yscene.h>
 
+
+#include"yplant.h"
+class yPlant;
 class yFly : public yObject
 {
     Q_OBJECT;
@@ -28,7 +31,7 @@ public:
     int diecounter=0;
     int row;
     int timecounter=50;
-    bool ice=false;
+    int status=0;
     pea(QWidget * parent,int row,int type);
    ~pea();
     void act();
@@ -49,6 +52,23 @@ public :
     void mousePressEvent(QMouseEvent* event);
 };
 
+class basketBall : public yFly{
+    Q_OBJECT;
+public:
+    QPoint p;
+    QMovie * mov=new QMovie(":/flys/baksetball.png");
+    basketBall(QWidget * parent,QPoint  p,QPoint p2);
+    basketBall();
+    basketBall(QWidget * parent,int xpos);
+    ~basketBall();
+    void act();
+    int height=50;
+    int status=0;
+    double ay=0;
+    float t;
+    float  yspeed;
+    int timecounter=0;
+};
 
 //class icePea : public pea{
 //    Q_OBJECT;

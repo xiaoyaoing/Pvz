@@ -11,11 +11,14 @@ class yZombie ;
 class yPlant : public yObject{
     Q_OBJECT;
 public:
+   yPlant * protectedPlant=nullptr;
     bool canBeEaten=true;
     int row; int column;
     int timecounter=100;
+    int plantType=0;
     explicit yPlant(QWidget * parent=0) ;
-    void getDamage(int x,yZombie * zombie);
+    virtual void getDamage(int x,yZombie * zombie);
+    void getDamage(int damage);
    // void judge();
     void act();
     bool canbeJumpid=true;
@@ -114,6 +117,8 @@ public :
     QMovie * second=new QMovie(":/plants/garlic2.gif");
     QMovie * third=new QMovie(":/plants/garlic3.gif");
     int status=0;
+    int firstHealth;
+    int secondHealth;
     void act();
     garlic(QWidget * parent);
      ~garlic();
@@ -121,12 +126,38 @@ public :
 };
 
 class pumpkinHead : public yPlant{
-    QMovie pumkins[6];
+public:
+    QMovie * first=new QMovie(":/cards/pumkin1.gif");
+    QMovie * second=new QMovie(":/cards/pumkin2.gif");
+    QMovie * third=new QMovie(":/cards/pumkin3.gif");
     int status=0;
+   // yPlant * plant;
     void act();
     yPlant * plant;
-    pumpkinHead(QWidget * parent);
+    pumpkinHead(QWidget * parent,yPlant * p);
     ~pumpkinHead();
+};
+
+class fireTree : public yPlant{
+public :
+    QMovie * mov=new QMovie();
+    fireTree(QWidget * parent);
+      ~fireTree();
+
+};
+
+class eatFlower : public yPlant{
+
+public :
+    int status=0;
+    int timecounter=0;
+    int timemax=42*50;
+    QMovie * m1=new QMovie(":/plants/eatFlower.gif");
+      QMovie * m2=new QMovie(":/plants/eatFlower1.gif");
+        QMovie * m3=new QMovie(":/plants/eatFlower2.gif");
+        eatFlower(QWidget * parent);
+    void act();
+
 };
 
 

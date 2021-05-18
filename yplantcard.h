@@ -18,12 +18,16 @@ class yPlantCard : public QLabel
 {
 public:
     yPlantCard(QWidget * parent,int type);
+     yPlantCard(QWidget * parent,int type,int index);
     int  type;
     yScene * scene;
-    QLabel * front;
     QLabel * back;
+
     QMovie * movie;
+    QMovie * backMovie=nullptr;
     QLabel * costText;
+    int status=0;
+    int index=0;
     int time;
     int counter;
     int sunCost;

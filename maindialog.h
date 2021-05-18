@@ -6,14 +6,18 @@
 class MainDialog  : public QDialog
 {
     Q_OBJECT
-public:
+    static MainDialog * instance;
     MainDialog(QWidget * parent=0);
+public:
+    static MainDialog  * get();
+
     QPushButton * button;
     yScene * curScene;
  public slots :
     void toLight();
     void toDark();
     void toStart();
+    void toChoose();
 
 };
 

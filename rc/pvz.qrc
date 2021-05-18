@@ -1,6 +1,11 @@
 <RCC>
     <qresource prefix="/background">
         <file>background1.jpg</file>
+        <file>darkSmall.png</file>
+        <file>daySmall.png</file>
+        <file>darkBackground.jpg</file>
+        <file>Smalldark.png</file>
+        <file>smallDay.png</file>
     </qresource>
     <qresource prefix="/plants">
         <file>Peashooter.gif</file>
@@ -18,11 +23,24 @@
         <file>garlic3.gif</file>
         <file>squash1.gif</file>
         <file>squash2.gif</file>
+        <file>pumkin4.gif</file>
+        <file>pumkin5.gif</file>
+        <file>pumkin6.gif</file>
+        <file>pumkin1.gif</file>
+        <file>pumkin2.gif</file>
+        <file>pumkin3.gif</file>
+        <file>eatFlower.gif</file>
+        <file>eatFlower1.gif</file>
+        <file>eatFlower2.gif</file>
+        <file>FireTree.gif</file>
     </qresource>
     <qresource prefix="/interfaces">
         <file>start.jpg</file>
         <file>mainlogo.png</file>
         <file>SunBack.png</file>
+        <file>startBackground.png</file>
+        <file>Title.jpg</file>
+        <file>startButton.png</file>
     </qresource>
     <qresource prefix="/Zombies">
         <file>Zombie_1.gif</file>
@@ -40,12 +58,44 @@
         <file>ZombieShield.gif</file>
         <file>ZombieShieldAttack.gif</file>
         <file>zombieBoomDie.gif</file>
+        <file>PoleZombie.gif</file>
+        <file>PoleZombieAttack.gif</file>
+        <file>PoleZombieDie.gif</file>
+        <file>PoleZombieHead.gif</file>
+        <file>PoleZombieJump.gif</file>
+        <file>PoleZombieJump2.gif</file>
+        <file>PoleZombieWalk.gif</file>
+        <file>NewsAttack_1.gif</file>
+        <file>NewsAttack.gif</file>
+        <file>NewsDie.gif</file>
+        <file>NewsHead.gif</file>
+        <file>NewsLost.gif</file>
+        <file>NewsLost.wav</file>
+        <file>NewsWalk_1.gif</file>
+        <file>NewsWalk.gif</file>
+        <file>clown.gif</file>
+        <file>clownAttack.gif</file>
+        <file>clownAttack1.gif</file>
+        <file>clownWalk.gif</file>
+        <file>clownWalk1.gif</file>
+        <file>clownDie.gif</file>
+        <file>newAttack1.gif</file>
+        <file>newWalk1.gif</file>
+        <file>clawnWalk.gif</file>
+        <file>basketball.Zombie2.gif</file>
+        <file>baksetballzombie.gif</file>
+        <file>jumpAttack2.gif</file>
+        <file>jumpWalk2.gif</file>
+        <file>jumpWalk3.gif</file>
     </qresource>
     <qresource prefix="/flys">
         <file>Pea.gif</file>
         <file>PeaHit.gif</file>
         <file>Sun.gif</file>
         <file>PeaIce.gif</file>
+        <file>baksetball.png</file>
+        <file>PeaFire.gif</file>
+        <file>Fire.gif</file>
     </qresource>
     <qresource prefix="/cards">
         <file>card_CherryBomb.png</file>
@@ -59,5 +109,50 @@
         <file>tallWallNutCard.png</file>
         <file>tallWallNutCard1.png</file>
         <file>card_squash.png</file>
+        <file>garlcCard.png</file>
+        <file>card_PumpkinHead.png</file>
+        <file>sunFlower.png</file>
+        <file>Shovel.png</file>
+        <file>loss.png</file>
+        <file>squash.png</file>
+        <file>FireTreeBlack.png</file>
+        <file>garlicBlack.png</file>
+        <file>IcePeashooterBlack.png</file>
+        <file>pumkinHeadBlack.png</file>
+        <file>CardFireTree.png</file>
+        <file>cheeryBombBlack.png</file>
+        <file>RepeateBlack.png</file>
+        <file>repeaterBlack.png</file>
+        <file>tallWallutBlack.png</file>
+        <file>wallNutBlack.png</file>
+        <file>wallnut.png</file>
+        <file>eatFlowerBlack.png</file>
+        <file>Card_eatFlower.png</file>
+    </qresource>
+    <qresource prefix="/others">
+        <file>boomMovie.gif</file>
+        <file>loss.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>backMusic.MP3</file>
+        <file>Boom.wav</file>
+        <file>Eat.wav</file>
+        <file>Fire.wav</file>
+        <file>Lose.wav</file>
+        <file>Mush.wav</file>
+        <file>NewsLost.wav</file>
+        <file>NotEnoughSun.wav</file>
+        <file>Pea.wav</file>
+        <file>PeaHit.wav</file>
+        <file>Place.wav</file>
+        <file>Pole.wav</file>
+        <file>Potato.wav</file>
+        <file>ShieldHit.wav</file>
+        <file>startMusic.wav</file>
+        <file>Sun.wav</file>
+        <file>ZombieComing.MP3</file>
+        <file>backMusic2.MP3</file>
+        <file>squash.mp3</file>
+        <file>music3.mp3</file>
     </qresource>
 </RCC>
